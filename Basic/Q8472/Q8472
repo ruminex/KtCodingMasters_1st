@@ -1,0 +1,11 @@
+
+N = input()
+A = int(N)
+
+mod_5 = A % 5
+mod_7 = A % 7
+
+if(mod_5 > mod_7):
+    print(mod_5)
+else:
+    print(mod_7)

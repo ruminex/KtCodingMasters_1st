@@ -1,4 +1,0 @@
-
-A = input()
-A = int(A)
-print(chr(A))

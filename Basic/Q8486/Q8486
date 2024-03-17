@@ -1,13 +1,15 @@
 import math
-
 I = int(input())
+# %%
+answer = (3.14 * (I ** 2)) # (3.14* I * I)로 하면 버그생김 980 * 980이 3015656.0000000005으로 나옴
 
-answer = (3.14 * I * I)
+
 
 if answer.is_integer():
-    print(int(answer))
+    Ans = (int)(answer)
+    print(Ans)
 else:
-    print(answer)
+    print((float)(answer))
 
 
 # print('{:.0d}'.format((int)(answer)))

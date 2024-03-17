@@ -1,3 +1,4 @@
+import numpy as np
 '''I = [int(x) for x in input().split()]
 
 Lines = []

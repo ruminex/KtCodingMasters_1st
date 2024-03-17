@@ -2,4 +2,12 @@ import math
 
 I = int(input())
 
-print("%g" %(3.14 * (I * I)))
+answer = (3.14 * I * I)
+
+if answer.is_integer():
+    print(int(answer))
+else:
+    print(answer)
+
+
+# print('{:.0d}'.format((int)(answer)))
